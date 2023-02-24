@@ -9,7 +9,9 @@ $primaryColor: #ffba00;
 $primaryTextColor: #222222;
 $secondaryTextColor: #777777;
 $LinearGradientPrim :   linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
-
+*{
+    box-sizing: border-box;
+}
 /* Typography Styles  */
 body{
     line-height: 24px;
@@ -20,13 +22,19 @@ body{
 }
 h1,h2,h3,h4,h5,h6{
     font-family: $headongsFont;
+    margin: 0;
 }
 h1{
     font-size: 60px;
     line-height: 66px;
     font-weight: 700;
-    margin-bottom: 30px;
     color: $primaryTextColor;
+}
+h6{
+    font-size:16px;
+    line-height: 130%;
+    color: $primaryTextColor;
+    // font-family: ;
 }
 p{
     line-height: 24px;
@@ -44,4 +52,9 @@ a{
         text-transform: uppercase;
         letter-spacing: 1px;
     }
+}
+
+.shadow-item{
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+    background: #ffffff;
 }

@@ -6,7 +6,7 @@ import {faCartShopping , faMagnifyingGlass} from '@fortawesome/free-solid-svg-ic
 
 const index = () => {
   return (
-       <nav className="navbar navbar-expand-md navbar-light container justify-content-between">
+       <nav className="navbar shadow-item navbar-expand-md navbar-light container justify-content-between">
            <a className="navbar-brand" href="#">
             <img src={siteLogo} alt="Logo Image"/>
            </a>
