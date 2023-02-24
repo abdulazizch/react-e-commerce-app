@@ -1,0 +1,47 @@
+// Fonts 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+$headongsFont : 'Poppins', sans-serif;
+$bodyFont : 'Roboto', sans-serif;
+
+// Colors 
+$primaryColor: #ffba00;
+$primaryTextColor: #222222;
+$secondaryTextColor: #777777;
+$LinearGradientPrim :   linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+
+/* Typography Styles  */
+body{
+    line-height: 24px;
+    font-size: 14px;
+    font-family: $bodyFont;
+    font-weight: 400;
+    color: $primaryTextColor;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: $headongsFont;
+}
+h1{
+    font-size: 60px;
+    line-height: 66px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: $primaryTextColor;
+}
+p{
+    line-height: 24px;
+    font-size: 14px;
+    font-family: $bodyFont;
+    font-weight: 400;
+    color: $secondaryTextColor;
+}
+
+a{
+    text-decoration: none;
+    &.nav-link{
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+}

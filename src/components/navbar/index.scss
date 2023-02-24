@@ -1,0 +1,28 @@
+@import '../../App.scss';
+.navbar{
+    position: absolute;
+    padding: 10px 40px;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+
+    &.container{
+        max-width: 1200px;
+    }
+
+    .navbar-nav{
+        gap: 30px;
+        .nav-item{
+            .nav-link{
+                color: $primaryTextColor;
+
+                &.active{
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+}
